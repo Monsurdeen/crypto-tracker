@@ -10,10 +10,9 @@ function CoinRow({ coin, index, onClick }) {
 
   return (
     <tr
-     className="coin-row"
-  onClick={() => onClick(coin)}
-  style={{ borderBottom: '1px solid var(--border-color)' }}
-      
+      className="coin-row"
+      onClick={() => onClick(coin)}
+      style={{ borderBottom: "1px solid var(--border-color)" }}
     >
       <td style={{ padding: "14px 16px", color: "#6B7280" }}>{index + 1}</td>
       <td style={{ padding: "14px 16px" }}>
